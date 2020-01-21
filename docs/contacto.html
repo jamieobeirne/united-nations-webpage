@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="17 objetivos para transformar el mundo y un nuevo camino con el que mejorar la vida de todos">
+    <title>PEC3 - Página de propuesta de actividad</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+   <!--Raleway font embedded-->
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+</head>
+
+<body>
+    <a id="top"></a>
+    <!-- ???? <a class="sr-only" href="#main">Saltar al contenido principal</a> -->
+    <header class="header">
+            <nav>
+                <ul>
+                    <li class="headerList"><a href="objetivos.html">Objetivos</li>
+                    <li class="headerList"><a href="">Actualidad</a></li> <!--(empty link)-->
+                    <li class="headerList"><a href="index.html"><img src="./img/logo-site.png" alt="El logo de la página que es un icono circular coloreado con 17 secciones."  ></a></li>
+                    <li class="headerList"><a href="">Actividades</a></li><!--(empty link)-->
+                    <li class="headerList active">Contacto</li>
+                </ul> 
+            </nav>
+    </header>
+    
+    <main class="main">
+        <nav>
+            <ul>
+                <li class="breadCrumb"><a href="index.html">Inicio  / </a></li>
+                <li class="breadCrumb">Contacto</li>    
+            </ul>
+        </nav>
+        <div>
+            <h1 class="contactoHeader">Propón una actividad</h1>
+            <form id="contacto" action="#" method="post">
+                <fieldset>
+                     <div>
+                        <label for="correo"></label>
+                        <input type="email" name="correo" id="correo" placeholder="Correo electrónico *" required="">
+                    </div>
+                    <div>
+                        <label for="nombres"></label>
+                        <input type="text" name="nombres" id="nombres" placeholder="Nombre y apellidos *" required="" pattern="[a-zA-ZñÑáàéèíìóòúùÁÀÉÈÍÌÓÒÚÙüÜ\s]+">
+                    </div>
+                     <div>
+                        <label for="organización"></label>
+                        <input type="text" name="organización" id="organización" placeholder="Organización *" required="">
+                    </div>
+                    <div>
+                        <label for="postal"></label>
+                        <input type="text" name="postal" id="postal" placeholder="Dirección Postal *" required="">
+                    </div>
+                    <div>
+                        <label for="teléfono"></label>
+                        <input type="text" name="teléfono" id="teléfono" placeholder="Teléfono *" required="" pattern="((0[1-9]|5[0-2])|[1-4][0-9])[0-9]{3}">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div>
+                        <label for="objetivos"></label>
+                        <select name="objetivos" id="objetivos" required="">
+                            <option value=""> Objetivos de la Agenda 2030 *</option>
+                            <option value="1. Fin de la pobreza">1.Fin de la pobreza</option>
+                            <option value="2. Hambre cero">2. Hambre cero</option>
+                            <option value="3. Salud">3. Salud</option>
+                            <option value="4. Educación">4. Educación de calidad</option>
+                            <option value="5. Igualdad de género"> 5.Igualdad de género</option>
+                            <option value="6. Agua limpia">6. Agua limpia</option>
+                            <option value="7. Energía asequible"> 7.Energía asequible</option>
+                            <option value="8. Trabajo decente">8. Trabajo decente</option>
+                            <option value="9. Industria & innovación">9. Industria & innovación</option>
+                            <option value="10. Reducción de las desigualdades">10. Reducción de las desigualdades</option>
+                            <option value="11. Ciudades sostenibles">11. Ciudades sostenibles</option>
+                            <option value="12. Producción responsables">12. Producción responsables</option>
+                            <option value="13. Acción por el clima">13. Acción por el clima</option>
+                            <option value="14. Vida submarina">14. Vida submarina</option>
+                            <option value="15. Vida de ecosistemas">15. Vida de ecosistemas</option>
+                            <option value="16. Paz & justicia">16. Paz & justicia</option>
+                            <option value="17. Alianzas">17. Alianzas</option>
+                        </select>
+                    </div>
+                    <textarea rows="4" cols="40" placeholder="Descripción de la actividad propuesta *" required=""></textarea>
+                </fieldset>
+                <fieldset>
+                    <div class="checkbox">
+                        <label for="checkbox"><input type="checkbox" id="checkbox" required=""><span><a href="" title="Enlace al la política de protección de dato">Acepto la política de protección de datos</a></span></label>    
+                    </div>
+                    <input type="submit" value="Envío">
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+                    <nav>
+                        <ul class="firstFooterBlock">
+                            <li class="footerList"><a href="" title="Enlace sobre nosotros">Sobre nosotros</a></li><!--(empty link)-->
+                            <li class="footerList"><a href="" title="Enlace sobre el aviso legal">Aviso legal</a></li><!--(empty link)-->
+                            <li class="footerList privacidad"><a href="" title="Política de privacidad">Política de privacidad</a></li><!--(empty link)-->
+                        </ul>
+                    
+                        <ul class="secondFooterBlock">
+                            <li class="footerList2"><a href="" title="Facebook icono y enlace" ><img src="./img/facebook.png" alt="Facebook icono"></a></li><!--(empty link)-->
+                            <li class="footerList2"><a href=""><img src="./img/twitter.png" alt="Twitter icono" title="Twitter icono y enlace"></a></li><!--(empty link)-->
+                            <li class="footerList2"><a href=""><img src="./img/youtube.png" alt="YouTube icono" title="YouTube icono y enlace"></a></li><!--(empty link)-->
+                        </ul>
+                    </nav>
+
+            <div class="attribution">
+                <p>© 2019-2020 James O'Beirne. Trabajo realizado para la asignatura <abbr title="Hypertext Markup Language" lang="en">HTML</abbr> y <abbr title="Cascading Style Sheets" lang="en">CSS</abbr>. Primer semestre del curso 2019-2020</p>
+                <p>Textos elaborados a partir de la información consultada en <a href="https://www.un.org/sustainabledevelopment" title="Enlace a los 17 objetivos para transformar nuestro mundo del ONU"> https://www.un.org/sustainabledevelopment. </a></p> 
+                <p>Iconos de medios sociales hechos por<a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> de<a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+            </div>
+            <div class="attributionSecond">
+                <a href="#top"><img src="./img/chevron-up.png" alt="Ir arriba"></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
